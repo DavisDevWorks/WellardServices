@@ -30,7 +30,7 @@
     border-radius: 8px;
     align-items: center;
     transition-duration: 0.4s;
-    object-fit: scale-down;
+    max-width: 100%;
 }
 
 .button:hover {
@@ -238,6 +238,7 @@
     border-color: #5c6b28;
 
 }
+
 
 
 
