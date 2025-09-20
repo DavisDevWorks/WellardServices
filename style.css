@@ -1,7 +1,7 @@
 /*Background image*/
 .wellardimage {
     border-radius: 4px;
-
+    max-width: 100%;
 }
 
 /*Navigation styling*/
@@ -219,4 +219,5 @@
 .main {
     border: 3px;
     border-color: #5c6b28;
+
 }
