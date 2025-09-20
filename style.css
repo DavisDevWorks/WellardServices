@@ -163,7 +163,7 @@
     border-radius: 4px;
     max-width: 450px;
     max-height: 900px;
-    max-width: 100%;
+    object-fit: scale-down;
 }
 
 .door1 {
@@ -239,6 +239,7 @@
     border-color: #5c6b28;
 
 }
+
 
 
 
