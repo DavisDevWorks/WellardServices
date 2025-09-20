@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style.css">
+      <title>Wellard Services LLC</title>
+
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+      </script>
+      <script type="text/javascript">
+         (function(){
+            emailjs.init({
+            publicKey: "QHK3L8IBl9W-zZur6",
+            });
+         })();
+      </script>
+      <script src="javascript.js"></script>
+   </head>
+
+      <header>
+         <!--Background image-->
+         <img class="wellardimage" src="wellard.jpg">
+      </header>
+
+      <nav class="nav">
+         <a class="button" href="index.html">Home</a>
+         <a class="button" href="services.html">Services</a>
+         <a class="button" href="contact.html">Contact Us</a>
+      </nav>
+
+
+      
+            <body>
+               <div class="contactform">
+                  <div>
+                     <img src="wellardfamily.jpeg" class="family">
+                  </div>
+                  <div class="container1">  
+                     <h1>Welcome!</h1>
+                     <h4>Thank you for considering Wellard Services LLC</h4>
+                     <h4>If you have any questions call me at 208-617-6650</h4>
+                  </div>
+                     <div class="container2">
+                        <form>
+                           <div class="form-group">
+                              <label for="fname"></label><br>
+                              <input type="text" id="fullname" name="fullname" placeholder="Full Name" required><br>
+                           </div>
+                           <div class="form-group">
+                              <label for="email"></label><br>
+                              <input type="text" id="email" name="email" placeholder="Email" required><br>
+                           </div>
+                           <div class="form-group">
+                              <label for="pnumber"></label><br>
+                              <input type="text" id="pnumber" name="pnumber" placeholder="Phone Number" required><br>
+                           </div>
+                           <div class="form-group">
+                              <label for="service"></label><br>
+                              <input type="text" id="job" name="job" rows="4" placeholder="Service" required><br>
+                           </div>
+                           <br><button type="submit" class="button2" onclick="sendMail()">Send Email</button>
+                        </form>
+                  </div>
+               </div>
+
+            </body>
+
+
+      <footer class="footer">
+         <p><img src="wellardimg2.jpg" class="wellardimg"></p>
+         <p>Caldwell, Idaho</p>
+         <p>208-617-6650</p>
+            <div class="media">
+               <a href="https://www.facebook.com/profile.php?id=61559918332658">
+                  <img src="facebook.png">
+               </a>
+               <a href="https://www.instagram.com/wellardservices.llc/?igsh=bjFuYXI3c2plOW02">
+                  <img src="instagram.png">
+               </a>
+            </div>
+      </footer>
+</hmtl>
