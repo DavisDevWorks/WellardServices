@@ -223,6 +223,7 @@
     border: #2a3019;
     border-radius: 4px;
     max-width: 100%
+    object-fit: scale-down;
 }
 
 .container1 {
@@ -236,6 +237,7 @@
     border-color: #5c6b28;
 
 }
+
 
 
 
