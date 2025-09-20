@@ -222,6 +222,7 @@
     max-height: 600px;
     border: #2a3019;
     border-radius: 4px;
+    max-width: 100%
 }
 
 .container1 {
@@ -235,6 +236,7 @@
     border-color: #5c6b28;
 
 }
+
 
 
 
